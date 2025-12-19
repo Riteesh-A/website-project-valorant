@@ -1,0 +1,392 @@
+[
+  {
+    "category": "Data Quality and Integration",
+    "question": "How would you rate the current state of your procurement and supply chain data?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Highly fragmented across multiple systems with significant quality issues",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Partially integrated with some data quality concerns",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Mostly integrated with good data quality across core systems",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Fully integrated with high-quality, real-time data across all operations",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "System and Supplier Integration",
+    "question": "What is the current level of integration between your systems (ERP, WMS, TMS) and key suppliers' digital capabilities?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Minimal integration with mostly siloed systems and traditional suppliers (<25% digitized)",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Basic integration with manual transfers and mixed supplier capabilities (25-50% digitized)",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Moderate integration with automated workflows and majority digital suppliers (50-75% digitized)",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Fully integrated ecosystem with seamless APIs and highly digitized suppliers (>75%)",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Cloud and Digital Infrastructure",
+    "question": "How would you describe your organization's cloud and digital infrastructure readiness?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Primarily on-premise legacy systems",
+        "points": 33
+      },
+      {
+        "id": "B",
+        "text": "Hybrid environment with limited cloud adoption",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Significant cloud presence with modern architecture",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Cloud-native infrastructure with scalable, AI-ready platforms",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Process Standardization and Automation",
+    "question": "How standardized and automated are your procurement and supply chain processes?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Highly manual with significant process variations (<25% automated)",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Some standardization with basic automation in some areas (25-50% automated)",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Well-defined processes with significant automation (50-75% automated)",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Fully standardized with extensive automation across operations (>75% automated)",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Spend Visibility and Analytics",
+    "question": "How comprehensive is your current spend analysis and visibility?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Limited visibility with basic reporting only",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Good visibility with regular spend analysis",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Advanced analytics with predictive insights",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Real-time spend intelligence with AI-driven recommendations",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "External Data Integration",
+    "question": "How capable is your organization of integrating external data sources (market intelligence, supplier performance, risk data)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Limited external data integration",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Basic external data feeds with manual processing",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Good external data integration with some automation",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Advanced external data ecosystem with real-time integration",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Leadership Support and Change Management",
+    "question": "What level of support exists from senior leadership for AI transformation in procurement and supply chain?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Minimal awareness with historical struggles in technology adoption",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Some interest but no formal commitment or proven change management capability",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Strong support with budget and good track record",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Strategic priority with executive sponsorship and resilient change culture",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Digital Strategy and Risk Management",
+    "question": "How mature is your organization's digital transformation strategy including technology risk assessment?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "No formal digital strategy or technology risk assessment",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Strategy exists but implementation is early with basic risk processes",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Active transformation with clear roadmap and comprehensive risk framework",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Advanced digital maturity with AI at core and specific AI governance guidelines",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Skills and Talent",
+    "question": "What is the current level of data literacy and technical expertise within your procurement and supply chain teams?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Limited technical skills with mostly traditional procurement expertise",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Basic data analysis capabilities with some technical knowledge",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Strong analytical skills with some experience in advanced technologies",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "High data literacy with team members experienced in AI/ML technologies",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "AI Use Case Identification",
+    "question": "How well has your organization identified specific AI use cases for your procurement and supply chain?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "No specific AI use cases identified",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Aware of potential applications but no detailed analysis",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Some use cases identified with preliminary business cases",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Comprehensive AI roadmap with prioritized use cases and ROI projections",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Compliance and Audit Readiness",
+    "question": "How prepared is your organization to handle compliance and audit requirements for AI systems?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Limited compliance processes but no AI-specific protocols",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Basic compliance processes but no AI-specific protocols",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Strong compliance culture with some consideration for AI systems",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Comprehensive AI governance with audit trails and compliance monitoring",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "KPI and Metrics Framework",
+    "question": "How comprehensive is your current performance measurement system for procurement and supply chain?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Basic metrics with limited tracking",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Standard KPIs with regular reporting",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Advanced metrics with trend analysis and benchmarking",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Comprehensive performance framework with predictive indicators",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Decision-Making Process",
+    "question": "How data-driven is your current decision-making process?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Primarily intuition and experience-based decisions",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Some data analysis but limited systematic approach",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Data-informed decisions with regular analytical support",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Fully data-driven decisions with advanced analytics and modeling",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "Budget and Implementation Timeline",
+    "question": "What is your AI investment commitment and expected implementation timeline?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "No specific budget or exploratory phase only",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Limited budget (<10%) with 2-3 year implementation horizon",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Moderate budget (10-25%) with 12-18 month pilot programs planned",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Significant budget (>25%) with 6-12 month rapid deployment strategy",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "category": "AI Maturity Goals",
+    "question": "Where does your organization aspire to be in terms of AI maturity within the next 3-5 years?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Basic awareness of routine tasks",
+        "points": 25
+      },
+      {
+        "id": "B",
+        "text": "Moderate AI adoption with improved analytics and insights",
+        "points": 50
+      },
+      {
+        "id": "C",
+        "text": "Advanced AI capabilities with predictive and prescriptive analytics",
+        "points": 75
+      },
+      {
+        "id": "D",
+        "text": "Fully autonomous procurement and supply chain operations with real-time optimization",
+        "points": 100
+      }
+    ]
+  }
+]

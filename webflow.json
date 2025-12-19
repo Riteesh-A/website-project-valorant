@@ -1,0 +1,18 @@
+{
+  "library": {
+    "name": "Valorant Code Components",
+    "components": [
+      "./src/**/*.webflow.@(js|jsx|mjs|ts|tsx)"
+    ],
+    "bundleConfig": "./webpack.webflow.cjs",
+    "id": "web-components",
+    "description": "POC"
+  },
+  "telemetry": {
+    "global": {
+      "allowTelemetry": false,
+      "lastPrompted": 1764321073828,
+      "version": "1.8.49"
+    }
+  }
+}

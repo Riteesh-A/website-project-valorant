@@ -1,0 +1,90 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+    "name": "Valorant Code Components",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "build": {
+      "context": "..",
+      "dockerfile": "Dockerfile"
+    },
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
+    // Configure tool-specific properties.
+    "customizations": {
+      "vscode": {
+        "settings": {
+          // Editor behavior
+          "editor.formatOnPaste": true,
+          "editor.formatOnSave": true,
+          "editor.guides.bracketPairs": "active",
+          "explorer.confirmDelete": false,
+          "explorer.confirmDragAndDrop": false,
+          "files.autoSave": "onFocusChange",
+          "files.exclude": {
+            "**/.git": false
+          },
+          // JSX/TSX settings
+          "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+          "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+          "typescript.preferences.importModuleSpecifier": "non-relative",
+          // Code actions
+          "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+          },
+          // Formatter configurations
+          "prettier.requireConfig": true,
+          "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[typescriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[css]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          // Git settings
+          "git.autofetch": true,
+          "git.confirmSync": false,
+          "diffEditor.experimental.showMoves": true,
+          // Import management
+          "javascript.updateImportsOnFileMove.enabled": "always",
+          "typescript.updateImportsOnFileMove.enabled": "always"
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "WallabyJs.console-ninja",
+          "YoavBls.pretty-ts-errors",
+          "jock.svg",
+          "bradlc.vscode-tailwindcss",
+          "Zignd.html-css-class-completion",
+          "ms-azuretools.vscode-docker",
+          "formulahendry.auto-rename-tag",
+          "eamodio.gitlens",
+          "Gruntfuggly.todo-tree"
+        ]
+      }
+    },
+    // "postCreateCommand": []
+    "forwardPorts": [3000],
+    "portsAttributes": {
+      "3000": { "label": "Microfrontend Proxy Server" }
+    },
+    "mounts": [
+      "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,type=bind,consistency=cached"
+    ]
+    // "runArgs": []
+    // "remoteEnv": {}
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "root"
+  }
+  

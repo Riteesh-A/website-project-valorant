@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+/* desktop/display/lg */
+.display-lg {
+  color: var(--sys-surface, #F9FAF9);
+  text-align: center;
+  font-family: Geist, sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 64.8px */
+  letter-spacing: -0.016em;
+}
+
+.display-md {
+  /* desktop/display/md */
+  font-family: Geist, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 48px */
+  letter-spacing: -0.02em;
+}
+
+.display-sm {
+  /* desktop/display/sm */
+  font-family: Geist, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: -0.03em; /* -0.48px at 16px base */
+}
+
+
+
+/* desktop/headline/lg */
+.headline-lg {
+  font-family: Geist, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  letter-spacing: -0.025em; /* -0.4px is approximately -0.025em at 16px base */
+}
+
+
+/* desktop/headline/md */
+.headline-md {
+  font-family: Geist, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.02em;
+}
+
+.title-lg {
+  /* desktop/title/lg */
+  font-family: "Geist Mono", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  text-transform: uppercase;
+}
+
+.title-md {
+  /* desktop/title/md */
+  font-family: "Geist Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+
+
+.body-md {
+  font-family: Geist, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 28px */
+  letter-spacing: -0.02em;
+}
+
+.body-sm {
+  /* desktop/body/sm */
+  font-family: Geist, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.02em;
+}
+
+/* Mobile styles for body-sm */
+@media (max-width: 768px) {
+
+  .display-lg {
+    /* mobile/display/lg */
+    font-family: Geist, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 33.6px */
+    letter-spacing: -0.016em;
+  }
+
+  .display-md {
+    /* mobile/display/md */
+    font-family: Geist, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: -0.03em;
+  }
+
+  .headline-md {
+    /* mobile/headline/md */
+    font-family: Geist, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.0175em;
+  }
+
+  .headline-lg {
+    /* mobile/headline/lg */
+    font-family: Geist, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.025em;
+  }
+
+  .title-lg {
+    /* mobile/title/lg */
+    font-family: "Geist Mono", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+  }
+
+  .body-md {
+    /* mobile/body/md */
+    font-family: Geist, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.02em;
+  }
+
+  .body-sm {
+    /* mobile/body/sm */
+    font-family: Geist, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: -0.015em;
+  }
+}
+
+
+
+/* Colors */
+.surface-dim {
+  color: #D5DBDA;
+}
+
+.on-surface-variant {
+  color: #3C4949;
+}
+
+.on-surface {
+  color: #161D1D;
+}
+
+.surface-variant {
+  color: #D7E5E5;
+}
+
+.surface{
+  color: #F9FAF9;
+}
+
+.primary-container {
+  color : #07BDBD
+}
+
+.on-primary {
+  color: #FFF;
+}
+
+.primary {
+  color: #006A6A;
+}
+
+.outline-variant {
+  color: #BBC9C9;
+}

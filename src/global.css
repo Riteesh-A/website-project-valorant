@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* desktop/display/lg */
+.display-lg {
+  font-family: Geist;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 64.8px */
+  letter-spacing: -1.08px;
+}
+
+/* desktop/headline/md */
+.headline-md {
+  font-family: Geist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.36px;
+}
